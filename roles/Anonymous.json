@@ -1,0 +1,149 @@
+{
+    "Description": "Default role that is applied to all unauthenticated users",
+    "Name": "Anonymous",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 0
+        },
+        "AllExternalDatabases": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 0
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "bostonHousingInfer"
+            },
+            {
+                "Level": 1,
+                "Name": "increasePermissions"
+            },
+            {
+                "Level": 1,
+                "Name": "inference"
+            },
+            {
+                "Level": 1,
+                "Name": "inferencing_test"
+            },
+            {
+                "Level": 1,
+                "Name": "iris_inference"
+            },
+            {
+                "Level": 1,
+                "Name": "onNewItems"
+            },
+            {
+                "Level": 1,
+                "Name": "s"
+            },
+            {
+                "Level": 1,
+                "Name": "setupModel"
+            },
+            {
+                "Level": 1,
+                "Name": "t"
+            },
+            {
+                "Level": 1,
+                "Name": "test"
+            },
+            {
+                "Level": 1,
+                "Name": "test1"
+            },
+            {
+                "Level": 1,
+                "Name": "test11"
+            },
+            {
+                "Level": 1,
+                "Name": "testtest"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 1,
+                "Name": "iris"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "ml_config"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "model_stats"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "random"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "test"
+            }
+        ],
+        "Deployments": {
+            "Level": 0
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 0
+        },
+        "ExternalDatabases": [],
+        "Files": [],
+        "ManageUsers": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "app"
+            }
+        ],
+        "Roles": {
+            "Level": 0
+        },
+        "ServiceCaches": [
+            {
+                "Level": 13,
+                "Name": "test"
+            }
+        ],
+        "Timers": {
+            "Level": 0
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 0
+        },
+        "UsersList": {
+            "Level": 0
+        },
+        "adapters": {
+            "Level": 0
+        },
+        "usersecrets": {
+            "Level": 0
+        }
+    }
+}

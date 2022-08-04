@@ -1,0 +1,5 @@
+{
+    "description": "",
+    "name": "UserRolesCache",
+    "ttl": 3600
+}

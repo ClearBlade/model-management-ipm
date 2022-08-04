@@ -1,0 +1,327 @@
+{
+    "Description": "Default role that is applied to a user who has rights to everything",
+    "Name": "Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllExternalDatabases": {
+            "Level": 15
+        },
+        "AllServices": {
+            "Level": 15
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "acceptMLData"
+            },
+            {
+                "Level": 1,
+                "Name": "bostonHousingInfer"
+            },
+            {
+                "Level": 1,
+                "Name": "codecreatetest"
+            },
+            {
+                "Level": 1,
+                "Name": "codecreatetest3"
+            },
+            {
+                "Level": 1,
+                "Name": "createPipelineService"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchTableItems"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchTimer"
+            },
+            {
+                "Level": 1,
+                "Name": "handleInferenceResult"
+            },
+            {
+                "Level": 1,
+                "Name": "handleJobStatusMessage"
+            },
+            {
+                "Level": 1,
+                "Name": "increasePermissions"
+            },
+            {
+                "Level": 1,
+                "Name": "inference"
+            },
+            {
+                "Level": 1,
+                "Name": "inferencing_test"
+            },
+            {
+                "Level": 1,
+                "Name": "interruptTraining"
+            },
+            {
+                "Level": 1,
+                "Name": "iris_inference"
+            },
+            {
+                "Level": 1,
+                "Name": "onNewItems"
+            },
+            {
+                "Level": 1,
+                "Name": "pipeline_template"
+            },
+            {
+                "Level": 1,
+                "Name": "removeMLJob"
+            },
+            {
+                "Level": 1,
+                "Name": "removeModel"
+            },
+            {
+                "Level": 1,
+                "Name": "s"
+            },
+            {
+                "Level": 1,
+                "Name": "setupMLJob"
+            },
+            {
+                "Level": 1,
+                "Name": "setupModel"
+            },
+            {
+                "Level": 1,
+                "Name": "t"
+            },
+            {
+                "Level": 1,
+                "Name": "test"
+            },
+            {
+                "Level": 1,
+                "Name": "test1"
+            },
+            {
+                "Level": 1,
+                "Name": "test11"
+            },
+            {
+                "Level": 1,
+                "Name": "test3"
+            },
+            {
+                "Level": 1,
+                "Name": "testtest"
+            },
+            {
+                "Level": 1,
+                "Name": "train"
+            },
+            {
+                "Level": 1,
+                "Name": "trainingHandler"
+            },
+            {
+                "Level": 1,
+                "Name": "updateJob"
+            },
+            {
+                "Level": 1,
+                "Name": "updateModel"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "jobs"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "ml_config"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "model_stats"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "models"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "pipelines"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "random"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "test"
+            }
+        ],
+        "Deployments": {
+            "Level": 15
+        },
+        "DevicesList": {
+            "Level": 15
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "ExternalDatabases": [],
+        "Files": [
+            {
+                "Level": 15,
+                "Name": "test3"
+            },
+            {
+                "Level": 15,
+                "Name": "test-after-dynamic-URI"
+            },
+            {
+                "Level": 15,
+                "Name": "test5"
+            },
+            {
+                "Level": 15,
+                "Name": "iris_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "non-tmp-bucketset"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test6"
+            },
+            {
+                "Level": 15,
+                "Name": "test"
+            },
+            {
+                "Level": 15,
+                "Name": "test4"
+            },
+            {
+                "Level": 5,
+                "Name": "model1"
+            },
+            {
+                "Level": 15,
+                "Name": "test7"
+            },
+            {
+                "Level": 15,
+                "Name": "test2"
+            },
+            {
+                "Level": 15,
+                "Name": "postman-create-test"
+            },
+            {
+                "Level": 15,
+                "Name": "non-tmp-bucket-2"
+            },
+            {
+                "Level": 15,
+                "Name": "iris"
+            }
+        ],
+        "ManageUsers": {
+            "Level": 5
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "MMTest"
+            },
+            {
+                "Level": 5,
+                "Name": "app"
+            },
+            {
+                "Level": 5,
+                "Name": "test1"
+            }
+        ],
+        "Roles": {
+            "Level": 15
+        },
+        "ServiceCaches": [
+            {
+                "Level": 13,
+                "Name": "test"
+            },
+            {
+                "Level": 13,
+                "Name": "UserInfoCache"
+            },
+            {
+                "Level": 13,
+                "Name": "UserRolesCache"
+            }
+        ],
+        "Timers": {
+            "Level": 15
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "#"
+            },
+            {
+                "Level": 3,
+                "Name": "ml-inference"
+            },
+            {
+                "Level": 3,
+                "Name": "ml-inference/_edge/ml_edge"
+            }
+        ],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 15
+        },
+        "adapters": {
+            "Level": 15
+        },
+        "usersecrets": {
+            "Level": 0
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "indexes": {
+        "Total": 0,
+        "Data": []
+    },
+    "items": [
+        {
+            "created_at": "2022-08-01T20:03:04.587Z",
+            "edges": [],
+            "evaluations": {
+                "accuracy": "1.0"
+            },
+            "id": "d4bc9420-ab79-410e-b958-6e14681b2348",
+            "is_history": false,
+            "item_id": "43e682e5-6486-4d95-8ce4-06973112c387",
+            "job_name": "iris_job",
+            "name": "iris",
+            "to_deploy": false
+        },
+        {
+            "created_at": "2022-08-01T18:58:59.247Z",
+            "edges": [],
+            "evaluations": {
+                "accuracy": "0.9666666388511658"
+            },
+            "id": "199f0c03-419e-4278-b22f-b230b17d4084",
+            "is_history": false,
+            "item_id": "4b918778-f186-4841-8947-2b8486e8f75c",
+            "job_name": "iris_job",
+            "name": "iris",
+            "to_deploy": false
+        },
+        {
+            "created_at": "2022-08-01T18:48:59.498Z",
+            "edges": [],
+            "evaluations": {},
+            "id": "35218648-cd35-434f-b02f-16350a118310",
+            "is_history": false,
+            "item_id": "a6fe257a-6bb8-4bb5-8557-4cca44bea104",
+            "job_name": null,
+            "name": "iris",
+            "to_deploy": true
+        }
+    ],
+    "name": "models",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "edges",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "job_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "evaluations",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "is_history",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "created_at",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "to_deploy",
+            "ColumnType": "bool",
+            "PK": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "edge_config": {
+        "root": "/clearblade_platform_buckets"
+    },
+    "edge_storage": "local",
+    "name": "iris",
+    "platform_config": {
+        "root": "/clearblade_platform_buckets"
+    },
+    "platform_storage": "local"
+}

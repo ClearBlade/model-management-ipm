@@ -1,0 +1,33 @@
+{
+    "indexes": {
+        "Total": 0,
+        "Data": []
+    },
+    "items": [
+        {
+            "asdf": null,
+            "item_id": "6520019c-d22a-44c8-9247-7e15a73f270f"
+        },
+        {
+            "asdf": null,
+            "item_id": "9193d092-ae5e-45cb-a58f-45c9ae889375"
+        },
+        {
+            "asdf": null,
+            "item_id": "a4c899f6-2a5d-4f5f-bd54-cc72a05e8759"
+        }
+    ],
+    "name": "test",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "asdf",
+            "ColumnType": "string",
+            "PK": false
+        }
+    ]
+}

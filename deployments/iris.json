@@ -1,0 +1,16 @@
+{
+    "assets": [
+        {
+            "asset_class": "bucketsets",
+            "asset_id": "iris",
+            "deployment": "iris",
+            "member": "iris_deployment_edge_group",
+            "sync_schema_only": false,
+            "sync_to_edge": true,
+            "sync_to_platform": true
+        }
+    ],
+    "description": "Use this to deploy model: iris",
+    "edges": [],
+    "name": "iris"
+}

@@ -1,0 +1,9 @@
+{
+    "auth": true,
+    "description": "",
+    "messaging_url": "community.clearblade.com:1883",
+    "name": "model-management",
+    "platform_url": "https://community.clearblade.com",
+    "system_key": "f6f7b9a40cd8f39daf9ad6b5a6f501",
+    "system_secret": "F6F7B9A40CA29CAFBBD6D589E1A301"
+}

@@ -1,0 +1,50 @@
+{
+    "indexes": {
+        "Total": 0,
+        "Data": []
+    },
+    "items": [
+        {
+            "accuracy": 1,
+            "item_id": "2f706552-2583-47d4-b2ca-e1621458f0a3",
+            "model_name": "iris",
+            "model_path": "model/iris.onnx_719d0d56-4ce9-b353-eff3-bcdce3708042",
+            "trained_at": "2022-04-11T16:56:25.467Z"
+        },
+        {
+            "accuracy": 0.9090909361839294,
+            "item_id": "b01c99e2-57a6-4ac2-8b36-54cb25afffbb",
+            "model_name": "iris",
+            "model_path": "model/iris.onnx_3674f363-9351-3528-8ed7-5698f247bd33",
+            "trained_at": "2022-04-11T16:46:55.959Z"
+        }
+    ],
+    "name": "model_stats",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "model_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "model_path",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "trained_at",
+            "ColumnType": "timestamp",
+            "PK": false
+        },
+        {
+            "ColumnName": "accuracy",
+            "ColumnType": "double",
+            "PK": false
+        }
+    ]
+}

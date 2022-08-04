@@ -1,0 +1,123 @@
+{
+    "indexes": {
+        "Total": 0,
+        "Data": []
+    },
+    "items": [
+        {
+            "base_model_id": "35218648-cd35-434f-b02f-16350a118310",
+            "evaluations": [
+                "accuracy"
+            ],
+            "id": "fa57b3fb-f834-4b42-816d-7a8512386c2f",
+            "item_id": "0d3733bf-beb6-4fd4-8562-2e5e438b06ae",
+            "last_trained": "2022-08-01T20:03:04.584Z",
+            "model_name": "iris",
+            "name": "iris_job",
+            "queries": [
+                {
+                    "collection": "iris",
+                    "new_data_only": true,
+                    "query": "SELECT * FROM iris"
+                }
+            ],
+            "repeat": {
+                "type": "AMOUNT_OF_TIME",
+                "value": {
+                    "amount": 1,
+                    "units": "WEEK"
+                }
+            },
+            "status": {
+                "state": "success",
+                "timestamp": "2022-08-01T20:03:04.559Z"
+            },
+            "trained_model_ids": [
+                "199f0c03-419e-4278-b22f-b230b17d4084",
+                "d4bc9420-ab79-410e-b958-6e14681b2348"
+            ],
+            "training_edge": "ml_edge",
+            "training_files_info": {
+                "additional_input_folder_name": "additional_output",
+                "retrain_requirement_file_name": "retraining_requirements.txt",
+                "retrain_scripts_names": [
+                    "iris_retraining.py"
+                ]
+            },
+            "update_existing_model": false
+        }
+    ],
+    "name": "jobs",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "model_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "base_model_id",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "trained_model_ids",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "training_edge",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "queries",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "training_files_info",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "status",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "evaluations",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "update_existing_model",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "repeat",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "last_trained",
+            "ColumnType": "timestamp",
+            "PK": false
+        }
+    ]
+}

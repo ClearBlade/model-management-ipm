@@ -1,0 +1,27 @@
+{
+    "assets": [
+        {
+            "asset_class": "services",
+            "asset_id": "train",
+            "deployment": "iris_job_training",
+            "member": "iris_job_training_deployment_edge_group",
+            "sync_schema_only": false,
+            "sync_to_edge": true,
+            "sync_to_platform": false
+        },
+        {
+            "asset_class": "services",
+            "asset_id": "acceptMLData",
+            "deployment": "iris_job_training",
+            "member": "iris_job_training_deployment_edge_group",
+            "sync_schema_only": false,
+            "sync_to_edge": true,
+            "sync_to_platform": false
+        }
+    ],
+    "description": "This deployment supplies the necessary functions and files to perform training",
+    "edges": [
+        "ml_edge"
+    ],
+    "name": "iris_job_training"
+}

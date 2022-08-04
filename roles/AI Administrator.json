@@ -1,0 +1,136 @@
+{
+    "Description": "",
+    "Name": "AI Administrator",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllExternalDatabases": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 15
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "acceptMLData"
+            },
+            {
+                "Level": 1,
+                "Name": "bostonHousingInfer"
+            },
+            {
+                "Level": 1,
+                "Name": "fetchTimer"
+            },
+            {
+                "Level": 1,
+                "Name": "handleInferenceResult"
+            },
+            {
+                "Level": 1,
+                "Name": "handleJobStatusMessage"
+            },
+            {
+                "Level": 1,
+                "Name": "increasePermissions"
+            },
+            {
+                "Level": 1,
+                "Name": "iris_inference"
+            },
+            {
+                "Level": 1,
+                "Name": "onNewItems"
+            },
+            {
+                "Level": 1,
+                "Name": "removeModel"
+            },
+            {
+                "Level": 1,
+                "Name": "setupMLJob"
+            },
+            {
+                "Level": 1,
+                "Name": "setupModel"
+            },
+            {
+                "Level": 1,
+                "Name": "t"
+            },
+            {
+                "Level": 1,
+                "Name": "test"
+            },
+            {
+                "Level": 1,
+                "Name": "train"
+            },
+            {
+                "Level": 1,
+                "Name": "updateModel"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "test"
+            }
+        ],
+        "Deployments": {
+            "Level": 15
+        },
+        "DevicesList": {
+            "Level": 0
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "ExternalDatabases": [],
+        "Files": [
+            {
+                "Level": 15,
+                "Name": "iris-model_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test11"
+            },
+            {
+                "Level": 15,
+                "Name": "test"
+            }
+        ],
+        "ManageUsers": {
+            "Level": 0
+        },
+        "MsgHistory": {
+            "Level": 0
+        },
+        "Portals": [],
+        "Roles": {
+            "Level": 15
+        },
+        "ServiceCaches": [],
+        "Timers": {
+            "Level": 15
+        },
+        "Topics": [],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 0
+        },
+        "adapters": {
+            "Level": 0
+        },
+        "usersecrets": {
+            "Level": 0
+        }
+    }
+}

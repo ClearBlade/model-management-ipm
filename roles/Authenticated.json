@@ -1,0 +1,503 @@
+{
+    "Description": "",
+    "Name": "Authenticated",
+    "Permissions": {
+        "AllCollections": {
+            "Level": 15
+        },
+        "AllExternalDatabases": {
+            "Level": 0
+        },
+        "AllServices": {
+            "Level": 15
+        },
+        "CodeServices": [
+            {
+                "Level": 1,
+                "Name": "acceptMLData"
+            },
+            {
+                "Level": 1,
+                "Name": "bostonHousingInfer"
+            },
+            {
+                "Level": 1,
+                "Name": "handleInferenceResult"
+            },
+            {
+                "Level": 1,
+                "Name": "increasePermissions"
+            },
+            {
+                "Level": 1,
+                "Name": "inference"
+            },
+            {
+                "Level": 1,
+                "Name": "interruptTraining"
+            },
+            {
+                "Level": 1,
+                "Name": "iris_inference"
+            },
+            {
+                "Level": 1,
+                "Name": "onNewItems"
+            },
+            {
+                "Level": 1,
+                "Name": "removeMLJob"
+            },
+            {
+                "Level": 1,
+                "Name": "removeModel"
+            },
+            {
+                "Level": 1,
+                "Name": "setupModel"
+            },
+            {
+                "Level": 1,
+                "Name": "t"
+            },
+            {
+                "Level": 1,
+                "Name": "test"
+            },
+            {
+                "Level": 1,
+                "Name": "test1"
+            },
+            {
+                "Level": 1,
+                "Name": "testtest"
+            },
+            {
+                "Level": 1,
+                "Name": "train"
+            }
+        ],
+        "Collections": [
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "iris"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "jobs"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "ml_config"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "model_stats"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "models"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "random"
+            },
+            {
+                "Columns": null,
+                "Items": null,
+                "Level": 15,
+                "Name": "test"
+            }
+        ],
+        "Deployments": {
+            "Level": 15
+        },
+        "DevicesList": {
+            "Level": 15
+        },
+        "EdgesList": {
+            "Level": 15
+        },
+        "ExternalDatabases": [],
+        "Files": [
+            {
+                "Level": 15,
+                "Name": "asdfaf"
+            },
+            {
+                "Level": 15,
+                "Name": "test-3"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-9_training"
+            },
+            {
+                "Level": 15,
+                "Name": "sdfasdfasfd_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "base-iris-model_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test7"
+            },
+            {
+                "Level": 15,
+                "Name": "non-tmp-bucket-2"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-5_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test-10_training"
+            },
+            {
+                "Level": 15,
+                "Name": "Pipe Leak Detection Model"
+            },
+            {
+                "Level": 15,
+                "Name": "Base Iris Model "
+            },
+            {
+                "Level": 15,
+                "Name": "test_model100"
+            },
+            {
+                "Level": 15,
+                "Name": "model5"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-4_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test5_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-1_training"
+            },
+            {
+                "Level": 15,
+                "Name": "Base Pipe Leak Detection Model"
+            },
+            {
+                "Level": 15,
+                "Name": "test1_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test-submitting_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-6_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-7_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-8_training"
+            },
+            {
+                "Level": 15,
+                "Name": "base-iris-model-2"
+            },
+            {
+                "Level": 15,
+                "Name": "test4"
+            },
+            {
+                "Level": 15,
+                "Name": "test10_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test3_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model-1"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model-2"
+            },
+            {
+                "Level": 15,
+                "Name": "test-2"
+            },
+            {
+                "Level": 15,
+                "Name": "test-6"
+            },
+            {
+                "Level": 15,
+                "Name": "test-2_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test7_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-2_training"
+            },
+            {
+                "Level": 15,
+                "Name": "base-iris-model-3"
+            },
+            {
+                "Level": 15,
+                "Name": "test3"
+            },
+            {
+                "Level": 15,
+                "Name": "model1"
+            },
+            {
+                "Level": 15,
+                "Name": "test9_training"
+            },
+            {
+                "Level": 15,
+                "Name": "delete-soon_training"
+            },
+            {
+                "Level": 15,
+                "Name": "Pipe Leak Detection Model_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test6"
+            },
+            {
+                "Level": 15,
+                "Name": "iris model"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test5"
+            },
+            {
+                "Level": 15,
+                "Name": "test-4"
+            },
+            {
+                "Level": 15,
+                "Name": "model4"
+            },
+            {
+                "Level": 15,
+                "Name": "1"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-3_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model-3"
+            },
+            {
+                "Level": 15,
+                "Name": "test_job_training"
+            },
+            {
+                "Level": 15,
+                "Name": "model12"
+            },
+            {
+                "Level": 15,
+                "Name": "test_model101"
+            },
+            {
+                "Level": 15,
+                "Name": "test6_training"
+            },
+            {
+                "Level": 15,
+                "Name": "model6"
+            },
+            {
+                "Level": 15,
+                "Name": "base-iris-model-5"
+            },
+            {
+                "Level": 15,
+                "Name": "model2"
+            },
+            {
+                "Level": 15,
+                "Name": "test2_training"
+            },
+            {
+                "Level": 15,
+                "Name": "base-iris-model"
+            },
+            {
+                "Level": 15,
+                "Name": "test1"
+            },
+            {
+                "Level": 15,
+                "Name": "test8_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test12_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test15_training"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-test-10_training"
+            },
+            {
+                "Level": 15,
+                "Name": "base-iris-model-4"
+            },
+            {
+                "Level": 15,
+                "Name": "iris-model"
+            },
+            {
+                "Level": 15,
+                "Name": "test2"
+            },
+            {
+                "Level": 15,
+                "Name": "model8"
+            },
+            {
+                "Level": 15,
+                "Name": "test4_training"
+            },
+            {
+                "Level": 15,
+                "Name": "non-tmp-bucketset"
+            },
+            {
+                "Level": 15,
+                "Name": "model3"
+            },
+            {
+                "Level": 15,
+                "Name": "uh??"
+            },
+            {
+                "Level": 15,
+                "Name": "test11_training"
+            },
+            {
+                "Level": 15,
+                "Name": "test-5"
+            },
+            {
+                "Level": 15,
+                "Name": "test"
+            },
+            {
+                "Level": 15,
+                "Name": "model11"
+            },
+            {
+                "Level": 15,
+                "Name": "model13"
+            }
+        ],
+        "ManageUsers": {
+            "Level": 5
+        },
+        "MsgHistory": {
+            "Level": 9
+        },
+        "Portals": [
+            {
+                "Level": 5,
+                "Name": "MMTest"
+            },
+            {
+                "Level": 5,
+                "Name": "app"
+            },
+            {
+                "Level": 5,
+                "Name": "test1"
+            }
+        ],
+        "Roles": {
+            "Level": 15
+        },
+        "ServiceCaches": [
+            {
+                "Level": 13,
+                "Name": "test"
+            },
+            {
+                "Level": 13,
+                "Name": "UserInfoCache"
+            },
+            {
+                "Level": 13,
+                "Name": "UserRolesCache"
+            }
+        ],
+        "Timers": {
+            "Level": 15
+        },
+        "Topics": [
+            {
+                "Level": 3,
+                "Name": "ml-data/_edge/ml_edge"
+            },
+            {
+                "Level": 3,
+                "Name": "ml-job-status/_platform"
+            }
+        ],
+        "Triggers": {
+            "Level": 15
+        },
+        "UsersList": {
+            "Level": 15
+        },
+        "adapters": {
+            "Level": 15
+        },
+        "usersecrets": {
+            "Level": 0
+        }
+    }
+}

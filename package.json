@@ -1,0 +1,17 @@
+{
+	"name": "model-management-ipm",
+	"version": "1.0.0",
+	"description": "Model Management IPM ",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BlastWind/model-management-ipm.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BlastWind/model-management-ipm/issues"
+	},
+	"homepage": "https://github.com/BlastWind/model-management-ipm#readme",
+	"image_url": "https://docs.clearblade.com/v/4/static/img/default_package.png"
+}

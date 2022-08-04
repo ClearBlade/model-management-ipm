@@ -1,0 +1,76 @@
+{
+    "indexes": {
+        "Total": 2,
+        "Data": [
+            {
+                "name": "job_name",
+                "type": "Unique Index"
+            },
+            {
+                "name": "job_name",
+                "type": "Nonunique Index"
+            }
+        ]
+    },
+    "items": [
+        {
+            "edge_name": null,
+            "fit_on_new_data_only": false,
+            "initial_training": false,
+            "item_id": "4e4caba1-12c6-49a1-83bf-b99f232553ee",
+            "job_name": "asdf",
+            "query_mapping": null,
+            "timer": null,
+            "training_configuration": null,
+            "trigger": null
+        }
+    ],
+    "name": "ml_config",
+    "schema": [
+        {
+            "ColumnName": "item_id",
+            "ColumnType": "uuid",
+            "PK": true
+        },
+        {
+            "ColumnName": "job_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "query_mapping",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "training_configuration",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "initial_training",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "edge_name",
+            "ColumnType": "string",
+            "PK": false
+        },
+        {
+            "ColumnName": "fit_on_new_data_only",
+            "ColumnType": "bool",
+            "PK": false
+        },
+        {
+            "ColumnName": "trigger",
+            "ColumnType": "jsonb",
+            "PK": false
+        },
+        {
+            "ColumnName": "timer",
+            "ColumnType": "jsonb",
+            "PK": false
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "description": "",
+    "name": "UserInfoCache",
+    "ttl": 3600
+}
