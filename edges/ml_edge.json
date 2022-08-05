@@ -1,0 +1,12 @@
+{
+	"description": "Your training edge",
+	"last_edge_type": null,
+	"last_seen_version": null,
+	"location": null,
+	"mac_address": null,
+	"name": "training_edge",
+	"policy_name": null,
+	"resolver_func": null,
+	"sync_edge_tables": null,
+	"token": "9pgA33U9LtE4X95s32n9Pl0e"
+}
