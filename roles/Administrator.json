@@ -18,15 +18,11 @@
 			},
 			{
 				"Level": 1,
-				"Name": "createPipelineService"
-			},
-			{
-				"Level": 1,
-				"Name": "fetchTableItems"
-			},
-			{
-				"Level": 1,
 				"Name": "fetchTimer"
+			},
+			{
+				"Level": 1,
+				"Name": "handleInferenceResult"
 			},
 			{
 				"Level": 1,
@@ -38,11 +34,15 @@
 			},
 			{
 				"Level": 1,
-				"Name": "awaitJobInterrupt"
+				"Name": "inference"
 			},
 			{
 				"Level": 1,
-				"Name": "pipeline_template"
+				"Name": "inferencing_test"
+			},
+			{
+				"Level": 1,
+				"Name": "interruptTraining"
 			},
 			{
 				"Level": 1,
@@ -54,11 +54,27 @@
 			},
 			{
 				"Level": 1,
+				"Name": "s"
+			},
+			{
+				"Level": 1,
 				"Name": "setupMLJob"
 			},
 			{
 				"Level": 1,
 				"Name": "setupModel"
+			},
+			{
+				"Level": 1,
+				"Name": "test"
+			},
+			{
+				"Level": 1,
+				"Name": "test11"
+			},
+			{
+				"Level": 1,
+				"Name": "testtest"
 			},
 			{
 				"Level": 1,
@@ -75,9 +91,19 @@
 			{
 				"Level": 1,
 				"Name": "updateModel"
+			},
+			{
+				"Level": 1,
+				"Name": "handleInferenceResult"
 			}
 		],
 		"Collections": [
+			{
+				"Columns": null,
+				"Items": null,
+				"Level": 15,
+				"Name": "inference_stats"
+			},
 			{
 				"Columns": null,
 				"Items": null,
@@ -88,7 +114,13 @@
 				"Columns": null,
 				"Items": null,
 				"Level": 15,
-				"Name": "iris"
+				"Name": "ml_config"
+			},
+			{
+				"Columns": null,
+				"Items": null,
+				"Level": 15,
+				"Name": "model_stats"
 			},
 			{
 				"Columns": null,
@@ -100,7 +132,7 @@
 				"Columns": null,
 				"Items": null,
 				"Level": 15,
-				"Name": "pipelines"
+				"Name": "random"
 			}
 		],
 		"Deployments": {
@@ -120,7 +152,12 @@
 		"MsgHistory": {
 			"Level": 9
 		},
-		"Portals": [],
+		"Portals": [
+			{
+				"Name": "model-management",
+				"Level": 5
+			}
+		],
 		"Roles": {
 			"Level": 15
 		},
