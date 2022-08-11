@@ -8,28 +8,26 @@
 
 ## Contents
 
-### [Overview](#overview-1)
+### [Overview](#overview)
 
-### [System Installation](#system-installation-1)
+### [System Installation](#system-installation)
 
-### [Setup](#setup-1)
+### [Setup](#setup)
 
-- #### [Setup on Google Cloud Platform](#setup-on-google-cloud-platform-1)
-- #### [Setup on ClearBlade](#setup-on-clearblade-1)
+### [Usage](#usage)
 
-### [Usage](#usage-1)
+- #### [Models Tab](#models-tab)
+- #### [Jobs Tab](#jobs-tab)
+- #### [Pipelines Tab](#pipelines-tab)
 
-- #### [Training Process](#training-process-1)
-- #### [Testing Process](#testing-process-1)
+### [System Overview Diagram](#System-Overview-Diagram)
 
-### [System Overview Diagram](#System-Overview-Diagram-1)
+### [Assets](#assets)
 
-### [Assets](#assets-1)
-
-- #### [Code Services](#code-services-1)
-- #### [Collections](#collections-1)
+- #### [Code Services](#code-services)
+- #### [Collections](#collections)
 - #### [Edges](#edges)
-- #### [Portals](#portals-1)
+- #### [Portals](#portals)
 
 ## Overview
 
@@ -199,7 +197,10 @@ Library nodes runs the parents' results through the exec function of the specifi
 Internally, models and libraries are preloaded. And, children access parents' results instead of parents passing results to children.
 
 ### System Overview Diagram
-<div display="flex" justify-content="space-evenly" width="100%" ><img src="resources/pipeline-diagram.png" width="40%"></img><img src="resources/job-model-diagram.png" width="40%"></img></div>
+
+[Pipeline Diagram](resources/pipeline-diagram.png)
+[Model and retraining Diagram](resources/job-model-diagram.png)
+
 ## Assets
 
 ### Code Services
