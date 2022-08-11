@@ -8,26 +8,26 @@
 
 ## Contents
 
-### [Overview](#overview)
+### [Overview](#overview-1)
 
-### [System Installation](#system-installation)
+### [System Installation](#system-installation-1)
 
-### [Setup](#setup)
+### [Setup](#setup-1)
 
-### [Usage](#usage)
+### [Usage](#usage-1)
 
-- #### [Models Tab](#models-tab)
-- #### [Jobs Tab](#jobs-tab)
-- #### [Pipelines Tab](#pipelines-tab)
+- #### [Models Tab](#models-tab-1)
+- #### [Jobs Tab](#jobs-tab-1)
+- #### [Pipelines Tab](#pipelines-tab-1)
 
-### [System Overview Diagram](#System-Overview-Diagram)
+### [System Overview Diagram](#System-Overview-Diagram-1)
 
-### [Assets](#assets)
+### [Assets](#assets-1)
 
-- #### [Code Services](#code-services)
-- #### [Collections](#collections)
-- #### [Edges](#edges)
-- #### [Portals](#portals)
+- #### [Code Services](#code-services-1)
+- #### [Collections](#collections-1)
+- #### [Edges](#edges-1)
+- #### [Portals](#portals-1)
 
 ## Overview
 
@@ -199,6 +199,7 @@ Internally, models and libraries are preloaded. And, children access parents' re
 ### System Overview Diagram
 
 [Pipeline Diagram](resources/pipeline-diagram.png)
+
 [Model and retraining Diagram](resources/job-model-diagram.png)
 
 ## Assets
