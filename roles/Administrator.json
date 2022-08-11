@@ -18,11 +18,19 @@
 			},
 			{
 				"Level": 1,
-				"Name": "fetchTimer"
+				"Name": "awaitJobInterrupt"
 			},
 			{
 				"Level": 1,
-				"Name": "handleInferenceResult"
+				"Name": "createPipelineService"
+			},
+			{
+				"Level": 1,
+				"Name": "fetchTableItems"
+			},
+			{
+				"Level": 1,
+				"Name": "fetchTimer"
 			},
 			{
 				"Level": 1,
@@ -34,15 +42,7 @@
 			},
 			{
 				"Level": 1,
-				"Name": "inference"
-			},
-			{
-				"Level": 1,
-				"Name": "inferencing_test"
-			},
-			{
-				"Level": 1,
-				"Name": "interruptTraining"
+				"Name": "pipeline_template"
 			},
 			{
 				"Level": 1,
@@ -54,27 +54,11 @@
 			},
 			{
 				"Level": 1,
-				"Name": "s"
-			},
-			{
-				"Level": 1,
 				"Name": "setupMLJob"
 			},
 			{
 				"Level": 1,
 				"Name": "setupModel"
-			},
-			{
-				"Level": 1,
-				"Name": "test"
-			},
-			{
-				"Level": 1,
-				"Name": "test11"
-			},
-			{
-				"Level": 1,
-				"Name": "testtest"
 			},
 			{
 				"Level": 1,
@@ -91,10 +75,6 @@
 			{
 				"Level": 1,
 				"Name": "updateModel"
-			},
-			{
-				"Level": 1,
-				"Name": "handleInferenceResult"
 			}
 		],
 		"Collections": [
@@ -102,7 +82,7 @@
 				"Columns": null,
 				"Items": null,
 				"Level": 15,
-				"Name": "inference_stats"
+				"Name": "iris"
 			},
 			{
 				"Columns": null,
@@ -114,25 +94,13 @@
 				"Columns": null,
 				"Items": null,
 				"Level": 15,
-				"Name": "ml_config"
-			},
-			{
-				"Columns": null,
-				"Items": null,
-				"Level": 15,
-				"Name": "model_stats"
-			},
-			{
-				"Columns": null,
-				"Items": null,
-				"Level": 15,
 				"Name": "models"
 			},
 			{
 				"Columns": null,
 				"Items": null,
 				"Level": 15,
-				"Name": "random"
+				"Name": "pipelines"
 			}
 		],
 		"Deployments": {
@@ -154,8 +122,8 @@
 		},
 		"Portals": [
 			{
-				"Name": "model-management",
-				"Level": 5
+				"Level": 5,
+				"Name": "model-management"
 			}
 		],
 		"Roles": {
@@ -190,7 +158,7 @@
 			"Level": 15
 		},
 		"usersecrets": {
-			"Level": 0
+			"Level": 15
 		}
 	}
 }
