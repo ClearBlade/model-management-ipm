@@ -234,7 +234,7 @@ Helper services:
 
 ### Portals
 
-`model-management`: Where you'll see the Models, Jobs, and Pipelines Tabs.
+`model-management`: Where you'll see the Models, Jobs, and Pipelines Tabs. You can see a preview of its page [here](resources/pipelines-page.png)
 
 ### Edges
 
