@@ -1,10 +1,8 @@
 # Model Management IPM
 
-<!-- ## Workflow Video
+## Workflow Video
 
-<a href='https://youtu.be/t70Nab7y4Do' target="_blank">
-  <img src="./VideoImage.png" alt="Workflow"/>
-</a> -->
+<a href='https://youtu.be/apiui5G7mzk' target="_blank">Youtube Video</a>
 
 ## Contents
 
