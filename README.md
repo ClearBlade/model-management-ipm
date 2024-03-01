@@ -2,7 +2,7 @@
 
 ## Workflow video
 
-<a href='https://youtu.be/apiui5G7mzk' target="_blank">Youtube Video</a>
+<a href='https://youtu.be/apiui5G7mzk' target="_blank">YouTube Video</a>
 
 ## Contents
 
@@ -91,7 +91,7 @@ Model to retrain on. If the `Update Existing Model` checkbox is selected, then t
 
 #### Training edge
 
-The edge to perform retraining on. This edge must have `Docker` installed. The following links can help if you are unfamiliar with spinning up an edge: https://docs.clearblade.com/v/4/edge/, https://docs.clearblade.com/v/4/edge/tutorial/.
+The edge to perform retraining on. This edge must have `Docker` installed. The following links can help if you are unfamiliar with spinning up an edge: https://clearblade.atlassian.net/wiki/spaces/IoT/pages/2343206920/Edge, https://clearblade.atlassian.net/wiki/spaces/IoT/pages/2343698435/Edge+tutorial.
 
 #### Training frequency
 
@@ -189,7 +189,7 @@ You need a custom library if normalization should be done between the pipeline a
 
 #### Library
 
-Library nodes run the parents' results through the exec function of the specified [library](https://docs.clearblade.com/v/4/platform/code/#libraries). If there are multiple parents, the parents' results are interpreted as a key-value pair (keys are parent IDs, and values are parent results). **The specified library must have a name prefixed with `pipelib_` and an "exec" function**.
+Library nodes run the parents' results through the exec function of the specified [library](https://clearblade.atlassian.net/wiki/spaces/IoT/pages/2343567408/Code#Libraries). If there are multiple parents, the parents' results are interpreted as a key-value pair (keys are parent IDs, and values are parent results). **The specified library must have a name prefixed with `pipelib_` and an "exec" function**.
 
 Internally, models and libraries are preloaded. And children access parents' results instead of parents passing results to children.
 
